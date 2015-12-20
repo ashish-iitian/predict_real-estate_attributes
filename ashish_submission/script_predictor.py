@@ -1,7 +1,7 @@
 import csv
 from sklearn.linear_model import LogisticRegression as logistic
 import numpy as np
-from buildzoom_feature_extractor import feature_extraction
+from script_feature_extractor import feature_extraction
 
 class regression:
 

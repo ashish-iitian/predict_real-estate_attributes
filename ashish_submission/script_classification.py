@@ -3,8 +3,8 @@ import cPickle as pickle
 from sklearn.preprocessing import Imputer
 import numpy as np
 from sklearn.metrics import classification_report
-from buildzoom_feature_extractor import feature_extraction
-from buildzoom_predictor import regression
+from script_feature_extractor import feature_extraction
+from script_predictor import regression
 
 
 def train(length,train_data):
